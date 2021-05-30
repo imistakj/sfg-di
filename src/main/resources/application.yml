@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dog,EN,dev
+
+
+---
+spring:
+  profiles: prod
+guru:
+  username: prodymlusername
+  password: prodymlpassword
+  jdbcurl: prodymljdbcurl
